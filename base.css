@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-color: aliceblue;
+}
+
+img{
+    height: 120px;
+    border-radius: 50%;
+}
+.main{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(
+    to top,
+    white 0%,
+    white 65%,
+    #0071c5 50%,
+    #0071c5 100%
+  );
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.circle{
+    height: 120px;
+    width: 120px;   
+    border-radius: 50%;
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.info{
+    text-align: center;
+}
+.sub, .msg{
+    border-radius: 55px;
+    background-color: #0071c5;
+    color:white;
+    border: none;
+    padding: 15px 45px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 8px;
+    cursor: pointer;
+  }
+
+.btns{
+    margin-left: 12%;
+}
+
+.social{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.fa{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    text-decoration: none;
+    margin-inline: 10px;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+
+.num{
+    padding-top: 20px;
+}
+
